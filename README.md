@@ -1,7 +1,7 @@
 # mflash-os-integrations
 ### Making `.mflash` a First-Class Citizen on Linux
 
-This repository provides the core system-level hooks to make the `.mflash` flashcard deck format behave like a native file type on Linux desktops. Instead of generic icons and "unknown file" errors, your OS will recognize, label, and preview your decks.
+This repository provides the core system-level hooks to make the `.mflash` flashcard deck format behave like a native file type on Linux desktops. Instead of generic icons your OS will recognize, label, and preview your decks.
 
 ---
 

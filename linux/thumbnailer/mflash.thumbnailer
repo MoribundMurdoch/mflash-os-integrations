@@ -1,4 +1,4 @@
 [Thumbnailer Entry]
-TryExec=mflash-thumbnailer
-Exec=mflash-thumbnailer %i %o
+TryExec=/usr/bin/mflash-thumbnailer
+Exec=/usr/bin/mflash-thumbnailer %i %o
 MimeType=application/x-mflash;

@@ -1,0 +1,11 @@
+# Arch Build Folders
+/pkg/
+/src/
+
+# Build Artifacts
+*.tar.gz
+*.tar.gz.sha256
+*.pkg.tar.zst
+
+# MacOS junk
+.DS_Store

@@ -1,0 +1,11 @@
+post_install() {
+    echo ">>> mflash-common: Linux integrations installed."
+    echo ">>> NOTE: If thumbnails don't appear for large files in Nemo (Cinnamon):"
+    echo ">>> 1. Go to Edit -> Preferences -> Preview"
+    echo ">>> 2. Increase 'Only for files smaller than' to 100MB+"
+    echo ">>> 3. Run 'nemo -q' to refresh."
+}
+
+post_upgrade() {
+    post_install
+}

@@ -1,11 +1,15 @@
-# Arch Build Folders
+# Build/Staging Folders
 /pkg/
 /src/
+/mflash-deb/
+/rpmbuild/
 
-# Build Artifacts
+# Build Artifacts (Binaries)
 *.tar.gz
 *.tar.gz.sha256
 *.pkg.tar.zst
+*.deb
+*.rpm
 
-# MacOS junk
+# System Junk
 .DS_Store

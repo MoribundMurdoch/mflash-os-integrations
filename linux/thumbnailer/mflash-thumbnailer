@@ -1,0 +1,19 @@
+#!/bin/bash
+# Usage: mflash-thumbnailer <input_archive> <output_image>
+
+INPUT_FILE="$1"
+OUTPUT_FILE="$2"
+
+# Try to extract cover.png first
+unzip -p "$INPUT_FILE" cover.png > "$OUTPUT_FILE" 2>/dev/null
+
+# If cover.png fails, try cover.jpg
+if [ $? -ne 0 ]; then
+    unzip -p "$INPUT_FILE" cover.jpg > "$OUTPUT_FILE" 2>/dev/null
+    
+    # If both fail, remove the empty output file and exit with an error
+    if [ $? -ne 0 ]; then
+        rm -f "$OUTPUT_FILE"
+        exit 1
+    fi
+fi

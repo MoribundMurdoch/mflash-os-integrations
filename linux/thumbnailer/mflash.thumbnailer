@@ -1,0 +1,4 @@
+[Thumbnailer Entry]
+TryExec=mflash-thumbnailer
+Exec=mflash-thumbnailer %i %o
+MimeType=application/x-mflash;

@@ -1,5 +1,5 @@
 Name:           mflash-common
-Version:        1.0.0
+Version:        1.1.0
 Release:        1
 Summary:        Native Linux system integrations for the .mflash deck format
 License:        MIT

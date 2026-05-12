@@ -1,6 +1,6 @@
 # Maintainer: deo-user <moribundmurdoch@gmail.com>
 pkgname=mflash-common
-pkgver=1.0.0
+pkgver=1.1.0
 pkgrel=1
 pkgdesc="Native Linux system integrations and thumbnailers for the .mflash deck format"
 arch=('any')
